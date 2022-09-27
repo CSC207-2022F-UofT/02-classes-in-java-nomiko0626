@@ -1,4 +1,4 @@
-import java.util.Arrays;  // imports Array
+import java.util.Arrays;
 
 /**
  * This file contains a few exercises to familiarize you with specific
@@ -12,8 +12,6 @@ import java.util.Arrays;  // imports Array
  */
 
 public class Silly implements Comparable<Silly>{
-    // Comparable is an interface that has only one method compareTo
-    // Comparable<type> implies that an instance of this class is being compared to an instance of type T
     /**
      * 1. Java has variables known as "static" variables.
      * These are variables that exist in every instance of a class,
@@ -54,7 +52,6 @@ public class Silly implements Comparable<Silly>{
      *    (Relevant reading: 2.2. Overloading)
      */
 
-    // overload: the same method name but different parameters (in terms of numbers and type)
     /**
      * Creates a new Silly object.
      * This constructor takes in a single String as an argument.
@@ -159,8 +156,6 @@ public class Silly implements Comparable<Silly>{
      * @param o   the object to compare to
      * @return    whether o is a Silly object with the same name as this.
      */
-    // == checks for ID equality
-    // this.equals(other) checks for certain properties
 
     @Override
     public boolean equals(Object o) {
